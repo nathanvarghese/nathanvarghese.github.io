@@ -9,9 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Boulder, Colorado</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +25,21 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I am Nathan Varghese. Welcome to my portfolio, feel free to reach out to me my email!
+
+I am a master's student at the University of Colorado Boulder, with a focus in Robotics.
+
+Peace 
+
+<!-- hand-peace icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+<svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+  <path d="M 263.5 16 Q 250.5 16 241.5 25 L 241.5 25 L 241.5 25 Q 232.5 33 231.5 46 L 221.5 253 L 221.5 253 L 222.5 256 L 222.5 256 L 257.5 256 L 257.5 256 Q 273.5 256 285.5 265 L 295.5 50 L 295.5 50 Q 295.5 35 286.5 26 Q 277.5 16 263.5 16 L 263.5 16 Z M 204.5 272 L 153.5 272 L 204.5 272 L 153.5 272 Q 129.5 273 113.5 288 Q 98.5 304 97.5 328 L 97.5 360 L 97.5 360 Q 98.5 418 137.5 456 Q 175.5 495 233.5 496 L 313.5 496 L 313.5 496 Q 371.5 495 409.5 456 Q 448.5 418 449.5 360 L 449.5 340 L 449.5 340 Q 436.5 352 417.5 352 Q 388.5 351 374.5 326 Q 360.5 343 337.5 344 Q 314.5 343 300.5 326 Q 286.5 351 257.5 352 L 185.5 352 L 185.5 352 Q 178.5 351 177.5 344 Q 178.5 337 185.5 336 L 257.5 336 L 257.5 336 Q 271.5 336 280.5 327 Q 289.5 318 289.5 304 Q 289.5 290 280.5 281 Q 271.5 272 257.5 272 L 220.5 272 L 220.5 272 L 220.5 272 L 220.5 272 L 204.5 272 L 204.5 272 L 204.5 272 L 204.5 272 Z M 207.5 220 L 215.5 46 L 207.5 220 L 215.5 46 Q 217.5 26 230.5 13 Q 243.5 0 263.5 0 Q 284.5 1 298.5 15 Q 311.5 29 311.5 50 L 304.5 197 L 304.5 197 Q 317.5 184 337.5 184 Q 370.5 186 382.5 215 Q 396.5 201 417.5 200 Q 437.5 201 451.5 214 Q 464.5 228 465.5 248 L 465.5 280 L 465.5 280 L 465.5 304 L 465.5 304 L 465.5 360 L 465.5 360 Q 463.5 425 420.5 467 Q 378.5 510 313.5 512 L 233.5 512 L 233.5 512 Q 168.5 510 126.5 467 Q 83.5 425 81.5 360 L 81.5 328 L 81.5 328 Q 81.5 306 93.5 288 Q 105.5 271 124.5 262 L 55.5 94 L 55.5 94 Q 46.5 71 59.5 52 Q 72.5 33 97.5 32 Q 125.5 33 138.5 59 L 207.5 220 L 207.5 220 Z M 70.5 88 L 140.5 257 L 70.5 88 L 140.5 257 Q 146.5 256 153.5 256 L 205.5 256 L 205.5 256 L 123.5 66 L 123.5 66 Q 115.5 49 97.5 48 Q 80.5 49 72.5 61 Q 64.5 73 70.5 88 L 70.5 88 Z M 449.5 280 L 449.5 248 L 449.5 280 L 449.5 248 Q 449.5 234 440.5 225 Q 431.5 216 417.5 216 Q 403.5 216 394.5 225 Q 385.5 234 385.5 248 L 385.5 296 L 385.5 296 L 385.5 304 L 385.5 304 Q 385.5 318 394.5 327 Q 403.5 336 417.5 336 Q 431.5 336 440.5 327 Q 449.5 318 449.5 304 L 449.5 280 L 449.5 280 Z M 337.5 200 Q 323.5 200 314.5 209 L 314.5 209 L 314.5 209 Q 305.5 218 305.5 232 L 305.5 296 L 305.5 296 Q 305.5 310 314.5 319 Q 323.5 328 337.5 328 Q 351.5 328 360.5 319 Q 369.5 310 369.5 296 L 369.5 248 L 369.5 248 L 369.5 232 L 369.5 232 Q 369.5 218 360.5 209 Q 351.5 200 337.5 200 L 337.5 200 Z" />
+</svg>
+
+
+
+<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
