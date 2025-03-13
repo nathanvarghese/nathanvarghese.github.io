@@ -48,7 +48,7 @@ rss_icon: false
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false # changed
 search_enabled: true
 socials_in_search: true
 bib_search: true
@@ -197,6 +197,7 @@ exclude:
   - _pages/publications.md
   - _pages/teaching.md
   - _pages/news.md
+  - _pages/profiles.md
 
 keep_files:
   - CNAME

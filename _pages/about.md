@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-### Hi 👋  
+#### Hi 👋  
 
 I'm a master's student at the **University of Colorado Boulder**, specializing in **Robotics**. My experiences in grad school have shaped me into a well-rounded roboticist, covering everything from **statistical estimation**, **optimization** and **computer vision** to **big data analytics** and **engineering management**.  
 
