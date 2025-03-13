@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: MS in Aerospace Engineering - Robotics
 
 profile:
   align: right
@@ -25,11 +25,16 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I am Nathan Varghese. 
+# Hi, I'm Nathan! 👋  
 
-I am a master's student at the University of Colorado Boulder, with a focus in Robotics. Specifically, my interest lies in optimization, computer vision, and estimation. I have taken relevant courses at CU Boulder which can be seen here - (link).
+I'm a master's student at the **University of Colorado Boulder**, specializing in **Robotics**. My experiences in grad school have shaped me into a well-rounded roboticist, covering everything from **statistical estimation**, **optimization** and **computer vision** to **big data analytics** and **engineering management**.  
 
-Peace :v:
+I enjoy integrating **machine learning** with robotics & data and thrive in **project management** roles, thanks to my strong communication skills and prior experience.  
+
+My projects and courses span a diverse range of topics—not just algorithms, but also key elements in **computer science** like Agile and Full stack development, making me a capable and adaptable **software engineer**. 
+
+✌️ Peace!  
+
 
 
 
