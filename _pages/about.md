@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: MS in Aerospace Engineering - Robotics
+subtitle: MS Aerospace Engineering - Robotics
 
 profile:
   align: right
@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-# Hi, I'm Nathan! 👋  
+### Hi 👋  
 
 I'm a master's student at the **University of Colorado Boulder**, specializing in **Robotics**. My experiences in grad school have shaped me into a well-rounded roboticist, covering everything from **statistical estimation**, **optimization** and **computer vision** to **big data analytics** and **engineering management**.  
 
@@ -33,7 +33,7 @@ I enjoy integrating **machine learning** with robotics & data and thrive in **pr
 
 My projects and courses span a diverse range of topics—not just algorithms, but also key elements in **computer science** like Agile and Full stack development, making me a capable and adaptable **software engineer**. 
 
-✌️ Peace!  
+:india: x :us:
 
 
 
