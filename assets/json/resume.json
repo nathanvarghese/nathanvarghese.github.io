@@ -1,5 +1,5 @@
 {
-  "about me": {
+  "basics": {
     "name": "Nathan Varghese",
     "email": "nathan.varghese@colorado.edu",
     "url": "https://github.com/nathanvarghese",
@@ -72,7 +72,7 @@
     }
   ],
 
-  "experience": [
+  "work": [
     {
       "name": "University of Colorado Boulder",
       "position": "Writing Consultant",
