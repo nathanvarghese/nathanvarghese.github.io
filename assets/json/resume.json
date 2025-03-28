@@ -48,7 +48,7 @@
       "technologies": ["Python", "ROS2"],
       "startDate": "2024-12-01",
       "endDate": "2024-9-01",
-      "summary": "Computer vision including sparse visual odometry, simultaneous localization and mapping (SLAM); the Robot Operating System (ROS); planning algorithms(RRT, RRT*), nonholonomic constraints in dynamics and controls.",
+      "summary": "ROS2, SLAM, RRT, Algorithms, PID controls.",
       "highlights": ["Developed an autonomous racing car using Bug-Algorithm and PID for steering control. Won first place in class competition.",
                     "Utilized GitHub for collaboration and version control"]
     },
@@ -66,7 +66,7 @@
       "technologies": ["C++"],
       "startDate": "2023-9-01",
       "endDate": "2023-12-01",
-      "summary": "Motion planning, Bug Algorithm, Data structures, OOP",
+      "summary": "Motion planning algorithms, Data structures, C++, OOP",
       "highlights": ["Setup ROS-TCP connection over IP for Unity physics simulation.",
       "Implemented sampling-based planners like RRT*, SST, and PRM"]
     }
@@ -78,7 +78,7 @@
       "position": "Writing Consultant",
       "startDate": "2024-08-01",
       "endDate": "Current",
-      "summary": "An academic support service that offers writers from all academic disciplines and skill levels the opportunity to work one-on-one.",
+      "summary": "Communication, Collaboration, Logical organization, Technical writing",
       "highlights": ["Collaborate with students across disciplines to enhance writing clarity, organization, and tone.",
         "Provide constructive feedback on academic essays, research papers, and jornals, focusing on grammar, structure, and argument development."
       ]
@@ -88,15 +88,16 @@
       "position": "Graduate Teaching Assistant",
       "startDate": "2023-08-01",
       "endDate": "Current",
-      "summary": "baba",
-      "highlights": ["lala"]
+      "summary": "Assistance, Team Supervision, ",
+      "highlights": ["Supervised and guided student teams in aerospace vehicle design, providing technical support in structural analysis, aerodynamics, and flight mechanics.",
+                    "Assisted students in debugging MATLAB code, troubleshooting computational models, and refining simulation results.","Conducted weekly office hours, clarifying course and homework concepts."]
     },
     {
       "name": "Department of Aerospace Engineering, MIT ADT",
       "position": "Junior Research Fellow",
       "startDate": "2022-11-01",
       "endDate": "2023-04-01",
-      "summary": "",
+      "summary": "Leadership, FEA analysis, Report writing",
       "highlights": ["Under my leadership my team was awarded $56,000 for the development of a rapid high-speed apparatus for experimental material research from a renowned research establishment.",
         "Achieved a 12-fold increase in the frequency of testing at supersonic speeds (Mach > 1.2) as compared to traditional methods of impact testing.",
         "Simulated the attachment for rotary components using finite element analysis (FEA) in ANSYS for Modal analysis, Factor of Safety, Stress analysis, etc. Investigated the trends in drag coefficient for different iterations."
@@ -107,7 +108,7 @@
       "position": "Research Intern",
       "startDate": "2021-05-01",
       "endDate": "2022-08-01",
-      "summary": "sasa",
+      "summary": "Leadership, ",
       "highlights": ["Supervised an 8-member fabrication team for over 400 hours.",
         "Managed $50-60 weekly in vendor transactions."
       ]
@@ -117,7 +118,7 @@
       "position": "Project Intern",
       "startDate": "2021-11-01",
       "endDate": "2021-12-01",
-      "summary": "gaga",
+      "summary": "Leadership",
       "highlights": ["Led and organised a team of 9 members in the assembly of an exhibition model showcasing a vertical static rocket motor test bed.",
         "Successfully completed the project within a 2-week time frame.",
         "Utilized Fusion 360 to design and 3D print the model using PLA filament and laser cutting for detailed components."
