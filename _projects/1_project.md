@@ -2,50 +2,49 @@
 layout: page
 title: ROS Development Kit
 description: Robotics Software Engineering Intern @ Inspector Bots LLC
-img: assets/img/12.jpg
+img: assets/img/minibot_jr.png
 importance: 1
 category: work
 related_publications: false
 ---
 
-#### **Platform**: NVIDIA Jetson Orin Nano, Rplidar A1M8, Pi-cam
-#### **Tools**: Linux, Docker, ROS2 Humble, Gazebo, Rviz
+##### Platform: NVIDIA Jetson Orin Nano, Rplidar A1M8, Pi-cam
+##### Tools: Linux, Docker, ROS2 Humble, Gazebo, Rviz
 
-In this project I focus on making a Development Kit for the current robot fleet at Inspector Bots. I use an NVIDIA Jetson Orin Nano board, leveraging an Rplidar A1M8 and Pi-camera to enable robust perception capabilities. The work uses Linux-based toolchain with Docker-managed ROS2 Humble environments to ensure reproducibility across devices, supported by Gazebo, Rviz, and rqt for Hardware-in-loop(HIL) and Software-in-loop(SIL) testing, simulation and visualization.
+Background: Chris (my supervisor) had mentioned that some of his customers asked if he had a development kit for his robots. I was immediately interested in this project since it has a significant overlap with all that I studied at school.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Summary: In this project I focus on making a Development Kit for the Minibot Jr. robot at Inspector Bots. I use an NVIDIA Jetson Orin Nano board, leveraging an Rplidar A1M8 and Pi-camera to enable robust perception capabilities. The work uses Linux-based toolchain with Docker-managed ROS2 Humble environments to ensure reproducibility across devices, supported by Gazebo, Rviz, and rqt for Hardware-in-loop(HIL) and Software-in-loop(SIL) testing, simulation and visualization.
+
+<!-- To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
     ---
     layout: page
     title: project
     description: a project with a background image
     img: /assets/img/12.jpg
-    ---
+    --- -->
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/minibot_jr.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/jetson.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    On the left, the standard Minibot Jr. with a GoPro camera. Right, a picture of the Jetson nano out of the box.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/rviz.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Running rviz inside a Dockerized ROS2 humble container
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
+<!-- You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
 Say you wanted to write a bit about your project before you posted the rest of the images.
 You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
@@ -77,7 +76,7 @@ Here's the code for the last row of images above:
     {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-```
+``` -->
 
 
 

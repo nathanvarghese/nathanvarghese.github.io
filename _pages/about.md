@@ -27,9 +27,11 @@ latest_posts:
 
 #### Hi 👋  
 
-My name is Nathan, and I am passionate about building intelligent robotic systems that connect theory with real-world impact. I earned my master’s degree specializing in Robotics from the University of Colorado Boulder, where I developed a strong foundation across core domains such as localization and mapping, state estimation, computer vision, and optimization.
+My name is Nathan, and I am passionate about building intelligent robotic systems that connect theory with real-world impact. I earned my master’s degree specializing in Robotics from the University of Colorado Boulder.
 
-Through a broad range of projects, I have gained experience not only in robotics but also in data science and applied software engineering. This combination allows me to approach problems with both analytical depth and practical versatility, enabling me to design, implement, and refine robust robotic solutions.
+At CU I developed a strong foundation across core domains such as localization and mapping, computer vision, and optimization.
+
+Through a broad range of projects, I have gained experience not only in robotics but also in data science and applied software engineering. This combination allows me to approach problems with both analytical depth and practicality.
 
 <!-- > :india: x :us:
 

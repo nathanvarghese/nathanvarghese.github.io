@@ -4,6 +4,6 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - nathanvarghese/adv-deep-racer
+  - nathanvarghese/adv-deep-racer/tree/follow_wall
   - nathanvarghese/SkiWise
 
