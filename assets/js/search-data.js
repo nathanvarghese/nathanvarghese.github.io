@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "My GitHub repo highlights!",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
@@ -403,9 +403,9 @@ ninja.data = [{
           description: "Robotics Software Engineering Intern @ Inspector Bots LLC",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-aws-deepracer",
+          title: 'AWS Deepracer',
+          description: "CSCI 4302/5302 - Advanced Robotics Project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
