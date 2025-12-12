@@ -1,16 +1,17 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: ROS Development Kit
+description: Robotics Software Engineering Intern @ Inspector Bots LLC
 img: assets/img/12.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+#### **Platform**: NVIDIA Jetson Orin Nano, Rplidar A1M8, Pi-cam
+#### **Tools**: Linux, Docker, ROS2 Humble, Gazebo, Rviz
+
+In this project I focus on making a Development Kit for the current robot fleet at Inspector Bots. I use an NVIDIA Jetson Orin Nano board, leveraging an Rplidar A1M8 and Pi-camera to enable robust perception capabilities. The work uses Linux-based toolchain with Docker-managed ROS2 Humble environments to ensure reproducibility across devices, supported by Gazebo, Rviz, and rqt for Hardware-in-loop(HIL) and Software-in-loop(SIL) testing, simulation and visualization.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
@@ -77,5 +78,7 @@ Here's the code for the last row of images above:
   </div>
 </div>
 ```
+
+
 
 {% endraw %}

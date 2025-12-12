@@ -1,14 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - nathanvarghese
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - nathanvarghese/adv-deep-racer
+  - nathanvarghese/SkiWise
+

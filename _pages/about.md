@@ -27,13 +27,11 @@ latest_posts:
 
 #### Hi 👋  
 
-I'm a master's student at the **University of Colorado Boulder**, specializing in **Robotics**. My experiences in grad school have shaped me into a well-rounded roboticist, covering everything from **statistical estimation**, **optimization** and **computer vision** to **big data analytics** and **engineering management**.  
+My name is Nathan, and I am passionate about building intelligent robotic systems that connect theory with real-world impact. I earned my master’s degree specializing in Robotics from the University of Colorado Boulder, where I developed a strong foundation across core domains such as localization and mapping, state estimation, computer vision, and optimization.
 
-I enjoy integrating **machine learning** with robotics & data and thrive in **project management** roles, thanks to my strong communication skills and prior experience.  
+Through a broad range of projects, I have gained experience not only in robotics but also in data science and applied software engineering. This combination allows me to approach problems with both analytical depth and practical versatility, enabling me to design, implement, and refine robust robotic solutions.
 
-My projects and courses span a diverse range of topics—not just algorithms, but also key elements in **computer science** like Agile and Full stack development, making me a capable and adaptable **software engineer**. 
-
-:india: x :us:
+<!-- > :india: x :us:
 
 
 
