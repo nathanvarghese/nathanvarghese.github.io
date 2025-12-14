@@ -26,18 +26,19 @@ Summary: In this project I focus on making a Development Kit for the Minibot Jr.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/minibot_jr.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/rviz.png" title="rviz" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/jetson.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/jetson.jpg" title="jetson nano" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     On the left, the standard Minibot Jr. with a GoPro camera. Right, a picture of the Jetson nano out of the box.
 </div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/rviz.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/inspector_bots.png" title="company logo" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -80,4 +81,4 @@ Here's the code for the last row of images above:
 
 
 
-{% endraw %}
+<!-- {% endraw %} -->
