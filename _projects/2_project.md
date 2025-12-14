@@ -3,24 +3,52 @@ layout: page
 title: AWS Deepracer
 description: CSCI 4302/5302 - Advanced Robotics Project
 img: assets/img/aws-bot.png
-importance: 1
+importance: 2
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+##### Platform: AWS Deepracer, Rplidar A1M8
+##### Tools: Linux, ROS2 Foxy, Rviz, roslaunch, Tailscale (ssh)
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<!---
+ To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
     ---
     layout: page
     title: project
     description: a project with a background image
     img: /assets/img/12.jpg
-    ---
+    --- 
+-->
 
+##### What I learned from this project..
+1. xyz
+2. abd
+3. efg
+4. lmn
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/slam-p11.png" title="rviz" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/slam-p12.png" title="jetson nano" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/slam-p13.png" title="jetson nano" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/slam-p14.png" title="jetson nano" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="caption">
+    Progression of the ros2 slam_toolbox building the map of the corridor
+</div>
+
+
+<!--- 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/slam1.png" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -42,7 +70,8 @@ To give your project a background in the portfolio page, just add the img tag to
 </div>
 <div class="caption">
     This image can also have a caption. It's like magic.
-</div>
+</div> 
+-->
 
 You can also put regular text between your rows of images.
 Say you wanted to write a little bit about your project before you posted the rest of the images.
@@ -50,21 +79,19 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/team-logo.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/discussion.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+(you can watch the video by clicking on this<a href="https://drive.google.com/file/d/1pwdTHxZFeC73_XauJe-3mFwC-uw4i7T7/view?usp=share_link">link</a>).
 
+<!--- 
 {% raw %}
 
 ```html
@@ -78,4 +105,5 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %}
+{% endraw %} 
+-->
