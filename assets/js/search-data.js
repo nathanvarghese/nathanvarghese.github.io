@@ -465,13 +465,6 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/nathan-varghese-499052175", "_blank");
         },
       },{
-        id: 'social-spotify',
-        title: 'Spotify',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://open.spotify.com/user/08dV9biRIoCGgSsJy2PtR5", "_blank");
-        },
-      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
