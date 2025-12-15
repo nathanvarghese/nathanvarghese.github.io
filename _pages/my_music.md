@@ -20,13 +20,13 @@ nav_order: 6
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-1 mt-md-0">
-        <iframe width="250" height="410" src="https://www.youtube.com/embed/vgE5z48C71E?feature=share" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="300" height="450" src="https://www.youtube.com/embed/vgE5z48C71E?feature=share" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     <div class="col-sm-4 mt-1 mt-md-0">
-        <iframe width="250" height="410" src="https://www.youtube.com/embed/DfDh-EzZIes?feature=share" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="300" height="450" src="https://www.youtube.com/embed/DfDh-EzZIes?feature=share" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     <div class="col-sm-4 mt-1 mt-md-0">
-        <iframe width="250" height="410" src="https://www.youtube.com/embed/Gk8wKr1-udU?feature=share" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="300" height="450" src="https://www.youtube.com/embed/Gk8wKr1-udU?feature=share" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 </div>
 
