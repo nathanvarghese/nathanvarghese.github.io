@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-music",
+          title: "music",
+          description: "The one thing that I am very passionate about!",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/music/";
+          },
         },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
@@ -408,9 +415,9 @@ ninja.data = [{
           description: "CSCI 4302/5302 - Advanced Robotics Project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-vision-based-control-in-webots",
+          title: 'Vision Based Control in WeBots',
+          description: "Final project of CSCI 5722 - Computer Vision",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
@@ -463,6 +470,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/nathan-varghese-499052175", "_blank");
+        },
+      },{
+        id: 'social-spotify',
+        title: 'Spotify',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://open.spotify.com/user/08dV9biRIoCGgSsJy2PtR5", "_blank");
         },
       },{
       id: 'light-theme',
