@@ -33,6 +33,8 @@ At CU I developed a strong foundation across core domains such as localization a
 
 Through a broad range of projects, I have gained experience not only in robotics but also in data science and applied software engineering. This combination allows me to approach problems with both analytical depth and practicality.
 
+In my free time I like to play guitar, produce music, run and bike (when its warm). Do give my music a listen on spotify, by clicking on the icon below!
+
 <!-- > :india: x :us:
 
 

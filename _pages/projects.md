@@ -3,7 +3,6 @@ layout: page
 title: projects
 permalink: /projects/
 description: A growing collection of my projects!
-img: assets/img/minibot_jr.png # comment out if annoying
 nav: true
 nav_order: 3
 display_categories: [work]

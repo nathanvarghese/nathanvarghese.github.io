@@ -2,7 +2,7 @@
 layout: page
 title: ROS Development Kit
 description: Robotics Software Engineering Intern @ Inspector Bots LLC
-img: assets/img/minibot_jr.png
+img: assets/img/minibot_jr_thumb.png
 importance: 1
 category: work
 related_publications: false

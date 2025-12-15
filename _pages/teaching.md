@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+permalink: /music/
+title: music
+description: The one thing that I am very passionate about!
 nav: true
 nav_order: 6
 ---

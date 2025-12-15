@@ -11,15 +11,14 @@ contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A link to Nathan's online portfolio
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: robotics, autonomous systems, optimization, systems, software, engineering, aerospace # add your own keywords or leave empty
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>, <a href="https://github.com/alshedivat/al-folio">al-folio</a>, <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+keywords: robotics, robotics software engineering, internship, fulltime, autonomous systems, optimization, systems, software, engineering, aerospace # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: nv.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://nathanvarghese.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
@@ -51,7 +50,7 @@ navbar_fixed: true
 footer_fixed: false # changed
 search_enabled: true
 socials_in_search: true
-bib_search: true
+bib_search: false
 
 # Dimensions
 max_width: 930px
@@ -195,7 +194,7 @@ exclude:
   - _pages/books.md
   - _pages/dropdown.md
   - _pages/publications.md
-  - _pages/teaching.md
+  - _pages/music.md
   - _pages/news.md
   - _pages/profiles.md
 
