@@ -198,6 +198,15 @@ exclude:
   - _pages/music.md
   - _pages/news.md
   - _pages/profiles.md
+  - _projects/4_project.md
+  - _projects/5_project.md
+  - _projects/6_project.md
+  - _projects/7_project.md
+  - _projects/8_project.md
+  - _projects/9_project.md
+  - _news/announcement_2.md
+  # - _news/announcement_3.md
+  - _books
 
 keep_files:
   - CNAME

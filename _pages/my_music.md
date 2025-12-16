@@ -4,7 +4,7 @@ permalink: /my_music/
 title: my music
 description: The one thing that I am very passionate about!
 nav: true
-nav_order: 6
+nav_order: 4
 ---
 
 <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/artist/08dV9biRIoCGgSsJy2PtR5?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>

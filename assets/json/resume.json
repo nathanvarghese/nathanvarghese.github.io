@@ -2,7 +2,6 @@
   "basics": {
     "name": "Nathan Varghese",
     "email": "nathan.varghese@colorado.edu",
-    "summary": "Graduate student specializing in autonomous systems, robotics, and navigation.",
     "location": {
       "city": "Boulder",
       "region": "Colorado",
@@ -15,8 +14,8 @@
       "area": "Aerospace Engineering - Autonomous Systems",
       "studyType": "Master of Science",
       "startDate": "2023-08-01",
-      "endDate": "2025-12-05",
-      "courses": "Advanced Robotics, Statistical Estimation, Optimization, Big Data Architecture"
+      "endDate": "2025-05-05",
+      "courses": "Advanced Robotics, Statistical Estimation, Optimization, Computer Vision"
     },
     {
       "institution": "Maharashtra Institute of Technology (MIT ADT), Pune",
@@ -28,16 +27,20 @@
   ],
   "skills": [
     {
-      "name": "Programming",
-      "keywords": "Python, ROS2, C++, MATLAB, JULIA, C#, Linux"
+      "name": "Languages",
+      "keywords": "Python, C++, MATLAB, Simulink, JULIA"
+    },
+    {
+      "name": "Software Tools",
+      "keywords": "Robot Operating Software (ROS1/ROS2), Linux systems (Cmake, Bash, ssh), OpenCV, PyTorch, Tailscale"
     },
     {
       "name": "Design and Simulation",
-      "keywords": "Unity, WeBots, AutoCAD, SolidWorks, ANSYS, Godot, Blender"
+      "keywords": "Unity, Gazebo, WeBots, AutoCAD, SolidWorks, ANSYS, Godot, Blender"
     },
     {
       "name": "Dev Tools",
-      "keywords": "Git, Google Collab, Trello"
+      "keywords": "Git, Docker, CI/CD, Google Collab, Trello"
     }
 
   ]
