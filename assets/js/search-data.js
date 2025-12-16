@@ -33,8 +33,8 @@ ninja.data = [{
         },{id: "news-i-started-my-internship-at-inspector-bots-sparkles",
           title: 'I started my internship at Inspector Bots! :sparkles:',
           description: "",
-          section: "News",},{id: "news-new-song-released",
-          title: 'New song released!',
+          section: "News",},{id: "news-",
+          title: '',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_3.html";
