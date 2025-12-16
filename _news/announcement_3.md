@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New song released! :guitar:
+title: New song released!
 date: 2025-10-24 07:59:00-0400
 inline: false
 related_posts: false
