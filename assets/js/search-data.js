@@ -50,7 +50,7 @@ ninja.data = [{
               window.location.href = "/projects/2_project.html";
             },},{id: "projects-vision-based-control-in-webots",
           title: 'Vision Based Control in WeBots',
-          description: "Final project of CSCI 5722 - Computer Vision",
+          description: "CSCI 5722 - Computer Vision Project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project.html";
             },},{
