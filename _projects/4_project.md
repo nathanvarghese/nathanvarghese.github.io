@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: SkiWise
+description: Ski resort optimizer function
 img:
 importance: 3
 category: fun

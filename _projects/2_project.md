@@ -9,7 +9,7 @@ giscus_comments: false
 ---
 
 ##### Platform: AWS Deepracer, Rplidar A1M8
-##### Tools: ROS2 Foxy, Linux CLI, Rviz, roslaunch, Tailscale (ssh), Github
+##### Tools: ROS2 Foxy, Linux CLI, rviz, roslaunch, Tailscale (ssh), Github
 <br>
 
 You can watch the race day video by clicking on this <a href="https://drive.google.com/file/d/1pwdTHxZFeC73_XauJe-3mFwC-uw4i7T7/view?usp=share_link">link</a>.
@@ -47,14 +47,18 @@ Say you wanted to write a little bit about your project before you posted the re
 You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-7 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/team-logo.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-5 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/discussion.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    On the left, team logo. Right, a picture of my discussion with a team member.
+    On the left, team logo. Right, team discussion.
 </div>
 
+Other highlights from the course :-
+1. Motion planning with RRT and RRT* 
+2. Reinforcement learning - mountain car simulation
+3. 
