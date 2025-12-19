@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ROS Development Kit
-description: Robotics Software Engineering Intern @ Inspector Bots LLC
+description: Robotics Software Engineering Intern @ Inspector Bots
 img: assets/img/minibot_jr_thumb.png
 importance: 1
 category: work
@@ -36,7 +36,7 @@ In this project I focus on making a Development Kit for the Minibot Jr. robot at
     </div>
 </div>
 <div class="caption">
-    <a href="https://www.inspectorbots.com">Inspector Bots LLC</a> logo
+    <a href="https://www.inspectorbots.com">Inspector Bots</a> logo
 </div>
 
 <br>

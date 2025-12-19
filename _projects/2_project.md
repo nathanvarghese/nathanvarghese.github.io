@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AWS Deepracer
-description: CSCI 4302/5302 - Advanced Robotics Project
+description: CSCI 5302 - Advanced Robotics Project
 img: assets/img/aws-bot.png
 importance: 2
 category: work
@@ -12,14 +12,7 @@ giscus_comments: false
 ##### Tools: ROS2 Foxy, Linux CLI, rviz, roslaunch, Tailscale (ssh), Github
 <br>
 
-You can watch the race day video by clicking on this <a href="https://drive.google.com/file/d/1pwdTHxZFeC73_XauJe-3mFwC-uw4i7T7/view?usp=share_link">link</a>.
-
-
-##### What I learned from this project..
-1. xyz
-2. abd
-3. efg
-4. lmn
+In this project, I develop an autonomous robot to race around a loop at the Engineering Center at CU Boulder. You can watch the race day video by clicking on this <a href="https://drive.google.com/file/d/1pwdTHxZFeC73_XauJe-3mFwC-uw4i7T7/view?usp=share_link">link</a>.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -37,28 +30,50 @@ You can watch the race day video by clicking on this <a href="https://drive.goog
 </div>
 
 <div class="caption">
-    Progression of the ros2 slam_toolbox building the map of the corridor
+    Progression of the ros2 slam_toolbox building the map of the corridor, playback of a rosbag.
 </div>
 
-
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+This project brought many unique challenges. The processor on the AWS Deepracer was limited and therefore we began with modifying the built-in roslaunch files which would start many unused like the cameraa_node, to optimize. 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-7 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/team-logo.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/team-logo.png" title="team logo" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-5 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/discussion.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/discussion.jpg" title="team discussion" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     On the left, team logo. Right, team discussion.
 </div>
 
-Other highlights from the course :-
-1. Motion planning with RRT and RRT* 
-2. Reinforcement learning - mountain car simulation
-3. 
+Another challenge that we faced was fine tuning the PID controller for steering. We ended up opting for a PD controller. Sharp corners, random tables, and entryways to lab doors could cause the Deepracer to stop or keep spinning in place. As a team, we decided that it was best if we fine tuned the PD controller on the race track. This proved to be a great choice, since we had the fastest lap in the course on race day.
+
+##### Other highlights from the course :-
+1. Implemented Sampling-based planning with RRT and RRT* 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/rrt06_goal_random_0.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/rrt08_goal_static_0.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    On the left, a non-holonpmic path to goal using RRT. Right, holonomic path using RRT.
+</div>
+
+2. Value Interation and Policy Iteration
+   
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/rrt06_goal_random_0.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/rrt08_goal_static_0.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    On the left, a non-holonpmic path to goal using RRT. Right, holonomic path using RRT.
+</div>
