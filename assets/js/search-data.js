@@ -40,12 +40,12 @@ ninja.data = [{
               window.location.href = "/news/announcement_3.html";
             },},{id: "projects-ros-development-kit",
           title: 'ROS Development Kit',
-          description: "Robotics Software Engineering Intern @ Inspector Bots LLC",
+          description: "Robotics Software Engineering Intern @ Inspector Bots",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
             },},{id: "projects-aws-deepracer",
           title: 'AWS Deepracer',
-          description: "CSCI 4302/5302 - Advanced Robotics Project",
+          description: "CSCI 5302 - Advanced Robotics Project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
             },},{id: "projects-vision-based-control-in-webots",
