@@ -53,6 +53,11 @@ ninja.data = [{
           description: "CSCI 5722 - Computer Vision Project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project.html";
+            },},{id: "projects-project-9",
+          title: 'project 9',
+          description: "another project with an image 🎉",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/template.html";
             },},{
         id: 'social-email',
         title: 'email',
