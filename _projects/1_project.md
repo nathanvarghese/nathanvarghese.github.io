@@ -8,10 +8,11 @@ category: work
 related_publications: false
 ---
 
-##### Project Overview
+#### Project Overview
 In this project I focus on making a Development Kit for the Minibot Jr. robot at Inspector Bots. I use an NVIDIA Jetson Orin Nano board, leveraging an Rplidar A1M8 and Pi-camera to enable robust perception capabilities. The work uses Linux-based tools with Docker-managed ROS2 Humble environments to ensure reproducibility across devices, supported by Gazebo, Rviz, and rqt for Hardware-in-loop(HIL) and Software-in-loop(SIL) testing, simulation and visualization.
 
 **Platform:** NVIDIA Jetson Orin Nano, Rplidar A1M8, Pi-cam
+
 **Tools:** Linux systems, Docker, ROS2 Humble, Gazebo, Rviz, URDF, Tailscale (ssh)
 <br>
 

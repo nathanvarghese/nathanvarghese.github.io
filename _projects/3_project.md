@@ -7,14 +7,14 @@ importance: 3
 category: work
 ---
 
-##### Overview
+#### Overview
 In this project, I coded a vision based controller using the Webots simulator. It used optical flow to self-center the epuck in the center of a long hallway.
 
 **Platform:** WeBots simulator, ePuck (2-wheeled differetial drive)
 **Tools:** OpenCV, C# Scripting
 <br>
 
-##### Challenges and solutions
+#### Challenges and solutions
 In the grand scheme of projects, this one was much easier but not without its challenges. At first, I had to understand the concept of optical flow in an image.
 
 Process flow
@@ -51,7 +51,7 @@ Process flow
 
 <br>
 
-##### Other highlights from the course :-
+#### Other highlights from the course :-
 1. Image Transformation
 2. Lucas Kannade algorithm
 3. Camera calibration

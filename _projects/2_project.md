@@ -8,17 +8,15 @@ category: work
 giscus_comments: false
 ---
 
-##### Overview
-In this project, I develop an autonomous robot to race around a loop at the Engineering Center at CU Boulder. You can watch the development video by clicking on this <a href="https://drive.google.com/file/d/1pwdTHxZFeC73_XauJe-3mFwC-uw4i7T7/view?usp=share_link">link</a>.
+#### Overview
+In this project, I develop an autonomous robot to race around a loop at the Engineering Center at CU Boulder.
 
 **Platform:** AWS Deepracer, Rplidar A1M8
 **Tools:** ROS2 Foxy, Linux CLI, rviz, roslaunch, Tailscale (ssh), Github, matplotlib
 
 <iframe src="https://drive.google.com/file/d/1pwdTHxZFeC73_XauJe-3mFwC-uw4i7T7/preview" width="100%" height="480"></iframe>
 
-<br>
-
-##### Challenges and solutions
+#### Challenges and solutions
 This project brought a couple unique challenges. The first challenge that we had to overcome was a substantial lag in the system response which on a deeper look was cpu throttling. After a team discussion, we decided that it would be best to modify the roslaunch file which came with the Deepracer and disable unused nodes like the camera_node and web_bridge_node among others. This resulted in lots more headroom in the processing power and snappy **teleop control**.
 
 Secondly, our team was spread apart and busy with various grad courses during different times of the week. We soon came to realise that it was not practical after shuffling the Deepracer back and forth between student dorms. We were already using **ssh** to code on the Deepracer over a local network, but our TA suggested using **Tailscale** (a VPN for secure remote ssh). For our first demo, I coded a wall following **Bug-algorithm** and pushed it to the Deepracer remotely, my friend ran that in his apartment with a makeshift wall and tweaked some of the values for a smoother operation. See the video below!
@@ -40,9 +38,7 @@ The final challenge that we faced was the race track itself that is - sharp corn
     On the left, team logo. Right, team discussion.
 </div>
 
-<br>
-
-##### Key takeaways
+#### Key takeaways
 1. Test in real world / client conditions
    - Code may run well in simulations and in an apartment but real world scenarios brings its own unique complications.
    - One team had cpu throttling issues so they implemented a distributeed workload with the processing being done on a laptop and sending the commmands over a ros_bridge, which is great! But the basement of the Engineering center has sparse network connectivity, so their solution wasn't practical. They ended up having to share a local network from a phone and using a trolley to follow their Deepracer around the race track.
@@ -51,54 +47,54 @@ The final challenge that we faced was the race track itself that is - sharp corn
 3. Distributing remote work is difficult as it is, so have hard conversations early on.
    - We had a teamate who was busy all the time, luckily he did not play a major role. But in hindsight, I would try to understand why they're having a difficult time showing up and make the team expectations clear.
 
-##### Other highlights from the course :-
+#### Other highlights from the course
 1. Implemented slam_toolbox using a rosbag
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/slam-p11.png" title="rviz" class="img-fluid rounded z-depth-1" %}
+    <div class="row">
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.liquid loading="eager" path="assets/img/slam-p11.png" title="rviz" class="img-fluid rounded z-depth-1" %}
+        </div>
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.liquid loading="eager" path="assets/img/slam-p12.png" title="rviz" class="img-fluid rounded z-depth-1" %}
+        </div>
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.liquid loading="eager" path="assets/img/slam-p13.png" title="rviz" class="img-fluid rounded z-depth-1" %}
+        </div>
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.liquid loading="eager" path="assets/img/slam-p14.png" title="rviz" class="img-fluid rounded z-depth-1" %}
+        </div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/slam-p12.png" title="rviz" class="img-fluid rounded z-depth-1" %}
+    <div class="caption">
+        Progression of the ros2 slam_toolbox building the map of the corridor, playback of a rosbag.
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/slam-p13.png" title="rviz" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/slam-p14.png" title="rviz" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Progression of the ros2 slam_toolbox building the map of the corridor, playback of a rosbag.
-</div>
 
+{:start="2"}
 2. Implemented Sampling-based planning with RRT and RRT*:
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/rrt06_goal_random_0.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="row">
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.liquid path="assets/img/rrt06_goal_random_0.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        </div>
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.liquid path="assets/img/rrt08_goal_static_0.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/rrt08_goal_static_0.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="caption">
+        On the left, a non-holonpmic path to goal using RRT. Right, holonomic path using RRT.
     </div>
-</div>
-<div class="caption">
-    On the left, a non-holonpmic path to goal using RRT. Right, holonomic path using RRT.
-</div>
 
+{:start="3"}
 3. Value Iteration and Policy Iteration
-   
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/21-states.png" title="rviz" class="img-fluid rounded z-depth-1" %}
+    <div class="row">
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.liquid loading="eager" path="assets/img/21-states.png" title="rviz" class="img-fluid rounded z-depth-1" %}
+        </div>
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.liquid loading="eager" path="assets/img/51-states.png" title="jetson nano" class="img-fluid rounded z-depth-1" %}
+        </div>
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.liquid loading="eager" path="assets/img/101-states.png" title="jetson nano" class="img-fluid rounded z-depth-1" %}
+        </div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/51-states.png" title="jetson nano" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/101-states.png" title="jetson nano" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 
-<div class="caption">
-    Value iteration on discritizing the states on the mountain car simulation, a continous-space open-ai gym environment.
-</div>
+    <div class="caption">
+        Value iteration on discritizing the states on the mountain car simulation, a continous-space open-ai gym environment.
+    </div>
