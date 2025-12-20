@@ -33,3 +33,21 @@ This is a simple image comparison slider. It uses the [img-comparison-slider](ht
   {% include figure.liquid path="assets/img/prof_pic.jpg" class="img-fluid rounded z-depth-1" slot="first" %}
   {% include figure.liquid path="assets/img/prof_pic_color.png" class="img-fluid rounded z-depth-1" slot="second" %}
 </img-comparison-slider>
+
+<!-- <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/slam-p11.png" title="rviz" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/slam-p12.png" title="rviz" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/slam-p13.png" title="rviz" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/slam-p14.png" title="rviz" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Progression of the ros2 slam_toolbox building the map of the corridor, playback of a rosbag.
+</div> -->

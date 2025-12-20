@@ -11,7 +11,10 @@ category: work
 In this project, I coded a vision based controller using the Webots simulator. It used optical flow to self-center the epuck in the center of a long hallway.
 
 **Platform:** WeBots simulator, ePuck (2-wheeled differetial drive)
+
 **Tools:** OpenCV, C# Scripting
+
+<iframe src="https://drive.google.com/file/d/17g5EbeI37RqF2KFZRTo4L0yPo7MVfRXL/preview" width="100%" height="480"></iframe>
 <br>
 
 #### Challenges and solutions
@@ -45,9 +48,16 @@ Process flow
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/image-flow.png" title="optical flow workspace" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/puck-view.png" title="epuck view" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/optical-flow-window.png" title="optical flow" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+    On the left, the division of the view from the ePuck. Right, optical flow direction vector window.
+</div>
+
 
 <br>
 
