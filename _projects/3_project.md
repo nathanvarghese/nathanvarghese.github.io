@@ -2,16 +2,44 @@
 layout: page
 title: Vision Based Control in WeBots
 description: CSCI 5722 - Computer Vision Project
-img: assets/img/epuck-thumb.png
+img: assets/img/epuck.png
 importance: 3
 category: work
 ---
 
-##### Platform: WeBots, ePuck (2-wheeled differetial drive)
-##### Tools: OpenCV, C# Scripting
+##### Overview
+In this project, I coded a vision based controller using the Webots simulator. It used optical flow to self-center the epuck in the center of a long hallway.
+
+**Platform:** WeBots simulator, ePuck (2-wheeled differetial drive)
+**Tools:** OpenCV, C# Scripting
 <br>
 
-In this project, I coded a vision based controller using the Webots simulator. It used optical flow to self-center the epuck in the center of a long hallway.
+##### Challenges and solutions
+In the grand scheme of projects, this one was much easier but not without its challenges. At first, I had to understand the concept of optical flow in an image.
+
+Process flow
+````markdown
+[Data Acquisition] → [Optical Flow] → [Flow Analysis] → [Control Decision] → [Lopp / Repeat]
+````
+
+1. Data Acquisition
+   - Read ````camera_publisher```` from ROS topics
+   - Convert image to grayscale (black and white)
+   - Resize image if necessary
+2. Calculate Optical Flow
+   - Use ````cv2.calcOpticalFlow()````
+   - Compare with the previous camera frame
+   - Return 2D vector flow field
+3. Analyze Flow Field
+   - Divide wall region into left and right sections
+   - Sum optical flow magnitudes
+   - Higher flow magnitude indicates closer proximity to a wall
+4. Conditional Control Loop
+   - If too close to left wall → turn right
+   - If too close to right wall → turn left
+   - Otherwise → continue forward
+5. Continuous Execution
+   - Repeat Steps 1–4 in a closed loop
 
 <!-- This page is under development. New content will be added soon. In the meantime enjoy this <a href="https://xkcd.com/1319">xkcd</a> comic! -->
 
@@ -21,9 +49,9 @@ In this project, I coded a vision based controller using the Webots simulator. I
     </div>
 </div>
 
+<br>
 
-
-Other highlights from the course :-
+##### Other highlights from the course :-
 1. Image Transformation
 2. Lucas Kannade algorithm
 3. Camera calibration
