@@ -6,6 +6,8 @@ img: assets/img/aws-bot.png
 importance: 2
 category: work
 giscus_comments: false
+images:
+  slider: true
 ---
 
 #### Overview

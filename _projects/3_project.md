@@ -12,7 +12,7 @@ In this project, I coded a vision based controller using the Webots simulator. I
 
 **Platform:** WeBots simulator, ePuck (2-wheeled differetial drive)
 
-**Tools:** OpenCV, C# Scripting
+**Tools:** OpenCV, C# Scripting, scipy, numpy, matplotlib
 
 <iframe src="https://drive.google.com/file/d/17g5EbeI37RqF2KFZRTo4L0yPo7MVfRXL/preview" width="100%" height="480"></iframe>
 <br>
@@ -55,14 +55,10 @@ Process flow
     </div>
 </div>
 <div class="caption">
-    On the left, the division of the view from the ePuck. Right, optical flow direction vector window.
+    On the left, the division of the view from the ePuck. Right, optical flow direction vector in green.
 </div>
-
-
 <br>
 
 #### Other highlights from the course :-
-1. Image Transformation
-2. Lucas Kannade algorithm
-3. Camera calibration
-4. Neural Networks by hand
+1. Zhang's method of camera calibration
+2. Neural Networks by hand
