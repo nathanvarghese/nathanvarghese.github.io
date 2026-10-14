@@ -67,7 +67,7 @@ The final challenge that we faced was the race track itself that is - sharp corn
         {% include figure.liquid path="assets/img/rrt06_goal_random_0.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/rrt08_goal_static_0.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/rrt08_goal_static_0.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

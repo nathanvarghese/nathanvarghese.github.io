@@ -48,8 +48,8 @@ rss_icon: false
 
 navbar_fixed: true
 footer_fixed: false # changed
-search_enabled: true
-socials_in_search: true
+search_enabled: false
+socials_in_search: false
 bib_search: false
 
 # Dimensions
@@ -203,7 +203,7 @@ exclude:
   - _projects/6_project.md
   - _projects/7_project.md
   - _projects/8_project.md
-  - _projects/9_project.md
+  - _projects/template.md
   - _news/announcement_2.md
   # - _news/announcement_3.md
   - _books
